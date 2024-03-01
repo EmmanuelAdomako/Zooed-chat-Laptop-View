@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+    font-weight: bold;
+}
+
+a:hover{
+    color:aqua;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+    padding:10px;
+    background-color:rgb(103, 98, 98);
+    box-shadow:0 10px 30px rgb(0, 0, 0, 0.3);
+}
+
+.options{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    margin-right:120px;
+}
+
+.tags{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-right:10px;
+}
+
+i{
+    font-size:20px;
+}
+
+aside{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:200px;
+    background-color: rgb(211, 205, 205);
+    padding:20px;
+    border-right: 1px solid rgb(240, 215, 215);
+    height:800px;
+    text-align: left;
+}
+
+
+
+.item-1{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  
+}
+
+body{
+    background-color:white;
+}
+
+.teams{
+    width:170px;
+    padding:15px;
+    height:40px;
+    text-align: center;
+}
+
+.teams:hover{
+    background-color:grey;
+    border-radius:8px;
+    text-align:center;
+}
+
+.teams:active{
+    background-color: rgb(230, 129, 129);
+}
+
+.body-image{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+
+}
+
+h6{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.body-image{
+    position:relative;
+}
+
+.middle-image{
+    position:absolute;
+    top:-600px;
+    width:200px;
+    height:200px;
+
+}
